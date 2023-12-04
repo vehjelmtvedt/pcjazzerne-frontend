@@ -7,10 +7,10 @@ steps:
   image: plugins/docker
   settings:
     # registry: docker.io
-    repo: DOCKERHUB_USERNAME/pcjazzerne
+    repo: DOCKERHUB_USER/pcjazzerne
     username:
       from_secret: DOCKERHUB_USERNAME
     password:
-      from_secret: DOCKERHUB_TOKEN
+      from_secret: DOCKER_TOKEN
     tags: 
       - latest
